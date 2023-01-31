@@ -1,5 +1,7 @@
-package com.example.mySQL;
+package com.example.mySQL.Controller;
 
+import com.example.mySQL.Model.Student;
+import com.example.mySQL.Service.StudentService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

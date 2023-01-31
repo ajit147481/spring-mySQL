@@ -1,5 +1,6 @@
-package com.example.mySQL;
+package com.example.mySQL.Repository;
 
+import com.example.mySQL.Model.Student;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

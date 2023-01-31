@@ -1,0 +1,16 @@
+package com.example.mySQL.Model;
+
+import com.example.mySQL.Enums.CardStatus;
+import jakarta.persistence.*;
+
+@Entity
+public class Card {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private int id;
+    @OneToOne
+    @JoinColumn
+    private Student student;
+    @Enumerated(EnumType.STRING)
+    private CardStatus cardStatus;
+}
